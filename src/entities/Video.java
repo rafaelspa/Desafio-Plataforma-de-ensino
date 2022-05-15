@@ -8,12 +8,14 @@ public class Video extends Lesson {
 		super();
 	}
 	
-	public Video(String url, int seconds) {
-		super();
+	public Video(String title, String url, int seconds) {
+		super(title);
 		this.url = url;
 		this.seconds = seconds;
 	}
-	
+
+
+
 	public String getUrl() {
 		return url;
 	}
